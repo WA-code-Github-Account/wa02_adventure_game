@@ -1,0 +1,22 @@
+{
+  "name": "wa02_adventure_game",
+  "version": "1.0.1",
+  "description": "This is a node,inquirer project its very intresting please try it and  enjoy life by AI .",
+  "main": "index.js",
+  "type": "module",
+  "bin": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "a.siddiqui",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7",
+    "@types/node": "^20.12.11"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "inquirer": "^9.2.20"
+  }
+}
