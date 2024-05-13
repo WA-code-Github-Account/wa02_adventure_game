@@ -1,4 +1,4 @@
-#! /usr/bin/env nodeno
+#! /usr/bin/env node
 import chalk from "chalk";
 import inquirer from "inquirer";
 let enemies = ["Skeleton", "Zombie", "Warrior", "Assassin", "Daragon"];
@@ -11,7 +11,7 @@ let healthPotionHealAmount = 30;
 let healthPotionDropChance = 50;
 let running = true;
 let playerLevel = 1;
-let getRandomNumber = (min, max) => {
+let getRandomNumber = (min:number, max:number) => {
     return Math.floor(Math.random() * max - min) + min;
 };
 console.log(chalk.redBright.bold("\n\tWelcome to the Dungeon!"));
