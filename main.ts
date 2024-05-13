@@ -1,7 +1,5 @@
 #! /usr/bin/env node
 import chalk from "chalk";
-import { log } from "console";
-
 import inquirer from "inquirer"; 
 
 let enemies: string[] = ["Skeleton", "Zombie", "Warrior", "Assassin", "Daragon"];
